@@ -6,6 +6,7 @@ function renderLicenseBadge(license) {
     'MIT': 'https://img.shield.io/badge/Licence-MIT-yellow.svg',
     'GPL': 'https://img.shield.io/badge/Licence-MIT-blue.svg',
     'Apache 2.0':'https://img.shield.io/badge/Licence-Apache%202.0-blue.svg',
+    {}
   }
 }
 
