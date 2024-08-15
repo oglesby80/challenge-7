@@ -62,6 +62,27 @@ function writeToFile(fileName, data) {
     fs. writeFileSync ('${fileName}.md', markdownData.trim(), 'utf8');
     fs. writeFileSync ('${fileName}.html', htmlData. trim(), 'utf8');
 }
+function generateHTML(data) {
+    return
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="httpps://cdn.jsdelivr.net/npm/bootstrap@5.30/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            font-family:
+        }
+    </style>
+
+</head>
+<body>
+    
+</body>
+</html>
+}
 
 // TODO: Create a function to initialize app
 function init() {} test
