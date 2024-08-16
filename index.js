@@ -1,6 +1,7 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
-import generateMarkdown from './generateMarkdown.js';
+import generateMarkdown from './utils/generateMarkdown.js';
+
 
 // Array of questions
 const questions = [
